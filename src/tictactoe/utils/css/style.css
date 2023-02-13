@@ -1,0 +1,86 @@
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+    background-color: rgb(166, 111, 83);
+  }
+  
+  .container{
+    display: flex;
+    justify-content: center;
+    color:bisque ;
+   
+  }
+  .game-menu{
+    margin-right: 30px;
+  }
+  .btn-sort{
+    margin-bottom: 10px;
+  }
+  .square {
+    background: rgb(248, 242, 230);
+    border: 1px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 34px;
+    width: 34px;
+    margin-right: -1px;
+    margin-top: -1px;
+    text-align: center;
+    cursor: pointer;
+  }
+  h1{
+   color:rgb(199, 239, 125) ;
+  }
+  .square:hover {
+    background-color: rgb(215, 212, 206);
+  }
+
+  .input-size {
+    width: 50px;
+    display: inline-block;
+  }
+  .btn-bold {
+    font-weight: bold;
+  }
+  .o-play{
+    color:rgb(11, 157, 74)
+  }
+  .x-play{
+    color: rgb(255, 171, 2)
+  }
+  .square-winner {
+    color: rgb(255, 94, 0);
+    background-color: rgb(242, 231, 133);
+    font-weight: bold;
+  }
+  .board-play{
+    border: 10px solid rgb(100, 59, 35);
+    border-radius:10px ;
+    display:block;
+  }
+  li{
+    margin-right: 30px;
+  }
+  input:invalid {
+    border: solid red 4px;
+   
+  }
+  input{
+    width: 100px;
+    background-color: rgb(255, 255, 219);
+    border: none;
+    margin-top: 5px;
+  }
+  button{
+    background-color: blanchedalmond;
+    margin-top: 2px;
+    border-radius: 5px;
+    color: rgb(34, 23, 23);
+    border: 1px solid  rgb(34, 23, 23); 
+    cursor: pointer;
+  }
+  button:hover{
+    background-color: rgb(178, 172, 172);
+  }
